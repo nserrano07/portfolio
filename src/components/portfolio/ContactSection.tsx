@@ -23,7 +23,7 @@ const ContactSection = () => {
             <Linkedin size={22} />
           </a>
           <a
-            href="mailto:natalia.serrano.0701+portfoltio@gmail.com"
+            href="mailto:natalia.serrano.0701+portfolio@gmail.com"
             className="w-12 h-12 rounded-lg bg-accent flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
             aria-label="Email">
             <Mail size={22} />
