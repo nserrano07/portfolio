@@ -15,7 +15,7 @@ const ContactSection = () => {
 
         <div className="animate-on-scroll flex items-center justify-center gap-4" style={{ transitionDelay: "0.15s" }}>
           <a
-            href="https://www.linkedin.com/in/natalia-serrano-o/"
+            href="https://www.linkedin.com/in/natalia-serrano-ortiz/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 rounded-lg bg-accent flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
