@@ -22,6 +22,14 @@ const tagIcons: Record<string, React.ElementType> = {
 
 const projects = [
   {
+    title: "Recycling Buddy",
+    description:
+      "AI-powered recycling assistant built in under 2 hours at the Ripple × Living Room Labs AI Hackathon (London, June 2026). Photograph any household item and instantly learn which bin it goes in — with rules tailored to your London borough and a postcode detector for hyper-local results. Next up: live council data and a nearest drop-off locator.",
+    link: "https://recycling-buddy.nataliaserranoortiz.com",
+    tags: ["React", "AI for Sustainability", "London Tech", "Product Thinking"],
+    note: "Built solo in under 2 hours. Powered by Claude vision.",
+  },
+  {
     title: "London Tube Labyrinth Diary",
     description:
       "A React-based personal tracker for the 'Labyrinth' art series across 270 London Underground stations. Demonstrates front-end development and 'vibe coding' logic.",
