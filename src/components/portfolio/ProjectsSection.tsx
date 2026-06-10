@@ -1,7 +1,11 @@
-import { ExternalLink, Code, Leaf, Brain, BarChart3, Palette, Blocks, Activity, Cpu } from "lucide-react";
+import { ExternalLink, Code, Leaf, Brain, BarChart3, Palette, Blocks, Activity, Cpu, TrendingUp } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const tagIcons: Record<string, React.ElementType> = {
+  "Next.js": Code,
+  AI: Brain,
+  "Data Visualisation": BarChart3,
+  "Personal Finance": TrendingUp,
   React: Code,
   Lovable: Blocks,
   "UI/UX": Palette,
@@ -21,6 +25,14 @@ const tagIcons: Record<string, React.ElementType> = {
 };
 
 const projects = [
+  {
+    title: "Budget Buddy",
+    description:
+      "Personal finance dashboard that parses Revolut CSV exports, categorises spending, and shows monthly and weekly breakdowns with category filtering. Ask Claude AI questions about your own data. Built with Next.js, Tailwind, recharts, and the Anthropic SDK.",
+    link: "https://budget-buddy.nataliaserranoortiz.com",
+    tags: ["Next.js", "AI", "Data Visualisation", "Personal Finance"],
+    note: "Live demo with sample data — upload your own CSV to explore.",
+  },
   {
     title: "Recycling Buddy",
     description:
