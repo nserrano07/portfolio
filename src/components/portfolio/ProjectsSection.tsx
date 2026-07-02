@@ -27,7 +27,7 @@ const tagIcons: Record<string, React.ElementType> = {
 
 const projects = [
   {
-    title: "Rental Tracker",
+    title: "Rentals Buddy",
     description:
       "Interactive tracker for comparing rental listings by price, features, and real distance to the places that matter — built during my own house search around Orpington & Bromley, Kent. Paste a listing's text and it extracts the details client-side (no fake data, ever), place your own map anchors, and archive or delete entries with a reason. Fully reusable by anyone — clear the session to start your own search from scratch.",
     link: "https://rentals.nataliaserranoortiz.com",
