@@ -1,4 +1,4 @@
-import { ExternalLink, Code, Leaf, Brain, BarChart3, Palette, Blocks, Activity, Cpu, TrendingUp } from "lucide-react";
+import { ExternalLink, Code, Leaf, Brain, BarChart3, Palette, Blocks, Activity, Cpu, TrendingUp, MapPin } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const tagIcons: Record<string, React.ElementType> = {
@@ -22,9 +22,18 @@ const tagIcons: Record<string, React.ElementType> = {
   Sustainability: Leaf,
   "Green IT": Leaf,
   "Industrial Engineering": Cpu,
+  Maps: MapPin,
 };
 
 const projects = [
+  {
+    title: "Rental Tracker",
+    description:
+      "Interactive tracker for comparing rental listings by price, features, and real distance to the places that matter — built during my own house search around Orpington & Bromley, Kent. Paste a listing's text and it extracts the details client-side (no fake data, ever), place your own map anchors, and archive or delete entries with a reason. Fully reusable by anyone — clear the session to start your own search from scratch.",
+    link: "https://rentals.nataliaserranoortiz.com",
+    tags: ["React", "Maps", "Product Thinking", "UI/UX"],
+    note: "All listing data is either pasted from real pages or entered by hand — nothing is fabricated.",
+  },
   {
     title: "Budget Buddy",
     description:
