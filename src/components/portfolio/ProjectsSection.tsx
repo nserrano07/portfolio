@@ -1,4 +1,4 @@
-import { ExternalLink, Code, Leaf, Brain, BarChart3, Palette, Blocks, Activity, Cpu, TrendingUp, MapPin } from "lucide-react";
+import { ExternalLink, Code, Leaf, Brain, BarChart3, Palette, Blocks, Activity, Cpu, TrendingUp, MapPin, Users } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const tagIcons: Record<string, React.ElementType> = {
@@ -23,6 +23,7 @@ const tagIcons: Record<string, React.ElementType> = {
   "Green IT": Leaf,
   "Industrial Engineering": Cpu,
   Maps: MapPin,
+  Multiplayer: Users,
 };
 
 const projects = [
@@ -33,6 +34,14 @@ const projects = [
     link: "https://rentals.nataliaserranoortiz.com",
     tags: ["React", "Maps", "Product Thinking", "UI/UX"],
     note: "All listing data is either pasted from real pages or entered by hand — nothing is fabricated.",
+  },
+  {
+    title: "Family Bingo",
+    description:
+      "A digital take on the bingo card I built in Excel to play with family over video calls during the pandemic. Classic 75-ball bingo played entirely peer-to-peer over WebRTC — host a room, call numbers, mark your own cards by hand, and pick each round's win pattern (a line, a letter, or a full house). Includes a host progress monitor and a shared 'Big Screen' caller board for video calls.",
+    link: "https://bingo.nataliaserranoortiz.com",
+    tags: ["React", "Multiplayer", "Product Thinking", "UI/UX"],
+    note: "No server, no accounts — every game is peer-to-peer and disappears when the tabs close.",
   },
   {
     title: "Budget Buddy",
